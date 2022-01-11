@@ -1,0 +1,17 @@
+@mixin parrafos {
+    color: black;
+    line-height: 25px;
+    font-weight: 500;
+}
+
+@mixin subt {
+    font-weight: 700;
+}
+
+p{
+    @include parrafos;
+}
+
+h3{
+    @include subt;
+}

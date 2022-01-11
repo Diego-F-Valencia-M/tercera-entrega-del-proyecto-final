@@ -1,0 +1,135 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  overflow-x: hidden; }
+
+p {
+  color: black;
+  line-height: 25px;
+  font-weight: 500; }
+
+h3 {
+  font-weight: 700; }
+
+/*Estilos el Menu*/
+#menu {
+  font-size: 18px;
+  font-weight: bold;
+  color: #3f3f3f; }
+  #menu button {
+    font-size: 18px;
+    font-weight: bold; }
+
+.carousel-inner {
+  max-height: 39rem; }
+
+.cont-1, .cont-2 {
+  margin: auto;
+  text-align: center; }
+
+/*Estilos contacto mapa*/
+#local {
+  background: #f3f3f3;
+  padding-bottom: 300px;
+  display: flex;
+  justify-content: center; }
+
+.mapa {
+  padding-top: 25px;
+  width: 100%;
+  height: 400px;
+  display: flex;
+  justify-content: center; }
+
+.wrapper {
+  width: 50%;
+  margin-left: 100px;
+  padding-top: 30px; }
+
+.cali:hover {
+  font-size: 30px;
+  font-weight: 700; }
+
+#telefonos-local div {
+  padding: 0 20px 0 0;
+  height: 48px; }
+
+#telefonos-local div:not(:last-child) {
+  border-right: 2px solid #3f3f3f; }
+
+#telefonos-local div:not(:first-child) {
+  padding-left: 20px; }
+
+#telefonos-local p {
+  margin: 0; }
+
+/*Formulario bg*/
+#bg-contactos {
+  position: relative;
+  top: -130px; }
+
+#seccion-contacto {
+  background-color: #1b2a4e;
+  min-height: 600px;
+  position: relative; }
+
+/*Contactos formularios*/
+#contenedor-formulario {
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: #fbfafa;
+  border-radius: 5px;
+  max-width: 500px; }
+
+#titulo-formulario {
+  color: #3f3f3f; }
+
+textarea {
+  resize: none; }
+
+/*footer*/
+footer {
+  background: #1b2a4e;
+  min-height: 100px; }
+  footer p {
+    color: #f3f3f3;
+    text-align: center; }
+
+#iconos {
+  font-size: 26px;
+  padding: 0 8px;
+  color: #f3f3f3; }
+
+/*Media Queries para pantallas SM*/
+@media screen and (max-width: 768px) {
+  #contenido #equipo {
+    width: 90% !important; }
+  .servicio-fila {
+    width: 100% !important;
+    text-align: center; }
+  #bg-contactos {
+    top: -110px; } }
+
+/*Media Queries para pantallas Extra-SM*/
+@media screen and (max-width: 576px) {
+  .icono-wrap {
+    flex-wrap: wrap;
+    justify-content: center !important; }
+  .mapa {
+    padding-top: 25px;
+    width: 85%;
+    height: 300px; }
+    .mapa img {
+      width: 100%;
+      height: 220px; } }
+
+/*Media Queries para pantallas anchas*/
+@media screen and (max-width: 1200px) {
+  #local {
+    flex-wrap: wrap;
+    padding-top: 30px; }
+  .wrapper {
+    width: 90%;
+    margin: auto;
+    padding-top: 50px; } }
