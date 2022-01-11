@@ -5,3 +5,5 @@
 2- Organice semanticamente las etiquetas del sitio.
 3- Di buena tabulaciones para una mejor lectura del codigo.
 3- Utilice etiquetas modernas de HTML5.
+4- Se realizo maquetado con Bootstrap 5.
+5- Se realizo maquetado de css por medio de Preprocesador SASS.
